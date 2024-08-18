@@ -1,0 +1,26 @@
+.todo-form {
+  display: flex;
+  height: 100%;
+}
+
+.todo-form__input {
+  box-sizing: border-box;
+  width: 500px;
+  height: 50px;
+  padding: 10px;
+  background: var(--colors-purple900);
+  border: 1px solid var(--colors-purple500);
+  outline: none;
+  border-radius: 5px;
+}
+.todo-form__button {
+  box-sizing: border-box;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: var(--colors-purple500);
+  color: #fff;
+}
